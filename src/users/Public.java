@@ -9,6 +9,11 @@ public class Public extends User{
 		this.user_id = getNewUserID();
 	}
 	
+	private int getNewUserID() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 	public Public(String name, String password, String email){
 		super(name, password, email);
 		this.user_type = "public";

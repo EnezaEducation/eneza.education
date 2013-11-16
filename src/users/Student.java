@@ -22,6 +22,11 @@ public class Student extends User {
 		this.level = level;
 		this.user_id = getNewUserID();
 	}
+
+	private int getNewUserID() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	
 
 }

@@ -14,4 +14,9 @@ public class School {
 		teachers = new ArrayList<Teacher>();
 		school_id = getNewSchoolID();
 	}
+
+	private int getNewSchoolID() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }

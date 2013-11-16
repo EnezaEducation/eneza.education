@@ -8,6 +8,11 @@ public class Parent extends User{
 		this.user_id = getNewUserID();
 	}
 	
+	private int getNewUserID() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 	public Parent(String name, String password, String email){
 		super(name, password, email);
 		this.user_type = "parent";
