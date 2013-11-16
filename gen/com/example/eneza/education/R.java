@@ -30,18 +30,18 @@ public final class R {
         public static final int button3=0x7f080009;
         public static final int button4=0x7f08000b;
         public static final int console=0x7f080005;
-        public static final int email=0x7f080010;
-        public static final int emailIP=0x7f08000f;
+        public static final int email=0x7f08000f;
+        public static final int emailIP=0x7f080010;
         public static final int loginBtn=0x7f080004;
-        public static final int name=0x7f08000c;
-        public static final int nameIP=0x7f08000e;
+        public static final int name=0x7f08000d;
+        public static final int nameIP=0x7f08000c;
         public static final int passwordIP=0x7f080003;
-        public static final int phoneIP=0x7f08000d;
-        public static final int sendBtn=0x7f080007;
+        public static final int phoneIP=0x7f08000e;
+        public static final int sendBtn=0x7f080006;
         public static final int signup=0x7f080000;
         public static final int userName=0x7f080001;
         public static final int userNameIP=0x7f080002;
-        public static final int userTextIp=0x7f080006;
+        public static final int userTextIp=0x7f080007;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
