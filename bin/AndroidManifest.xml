@@ -13,7 +13,9 @@
         android:label="Eneza Education"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.eneza.education.MainActivity" 
-            android:theme="@android:style/Theme.NoTitleBar">
+            android:theme="@android:style/Theme.NoTitleBar"
+            
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
