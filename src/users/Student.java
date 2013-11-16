@@ -14,6 +14,11 @@ public class Student extends User {
 		this.user_id = getNewUserID();
 	}
 	
+	private int getNewUserID() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 	public Student(String name, String password, String email, int level, String school, boolean gender){
 		super(name, password, email);
 		this.user_type = "student";
@@ -21,11 +26,6 @@ public class Student extends User {
 		this.gender = gender;
 		this.level = level;
 		this.user_id = getNewUserID();
-	}
-
-	private int getNewUserID() {
-		// TODO Auto-generated method stub
-		return 0;
 	}
 	
 
