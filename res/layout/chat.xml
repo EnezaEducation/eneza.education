@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#E5E4E2">
+
+    <TextView
+        android:id="@+id/console"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+     />
+
+    <Button
+        android:id="@+id/sendBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/console"
+        android:layout_alignTop="@+id/userTextIp"
+        android:background="#0099C5"
+        android:text="Send"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/userTextIp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/console"
+        android:layout_below="@+id/console"
+        android:layout_marginTop="41dp"
+        android:background="#ffffff"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

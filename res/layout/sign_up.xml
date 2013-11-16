@@ -9,13 +9,64 @@
      >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="79dp"
-        android:text="Large Text"
+        android:text="Name*"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/phoneIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameIP"
+        android:layout_centerHorizontal="true"
+        android:text="Phone Number*"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/nameIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="John Smith" />
+
+    <EditText
+        android:id="@+id/phoneIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/emailIP"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="78dp"
+        android:ems="10"
+        android:hint="+254720123456" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/emailIP"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="115dp"
+        android:text="Email"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/emailIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="39dp"
+        android:ems="10"
+        android:hint="john.smith@domain.com" >
+
+        <requestFocus />
+    </EditText>
 
 </RelativeLayout>
