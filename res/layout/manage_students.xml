@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" 
-    android:background="#E5E4E2">
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#0099c5"
+        android:gravity="left" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/official_logo_square" />
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="ENEZA Education"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+    </LinearLayout>
 
     <Button
         android:id="@+id/button1"
@@ -10,10 +37,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="62dp"
-        android:text="Manage students" 
+        android:layout_marginTop="26dp"
         android:background="#0099C5"
-        android:textColor="#ffffff"/>
+        android:text="Manage students"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/button3"
@@ -21,10 +48,10 @@
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/button2"
         android:layout_below="@+id/button2"
-        android:layout_marginTop="38dp"
-        android:text="Open Chat" 
+        android:layout_marginTop="26dp"
         android:background="#0099C5"
-        android:textColor="#ffffff"/>
+        android:text="Open Chat"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/button4"
@@ -32,10 +59,10 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button3"
         android:layout_below="@+id/button3"
-        android:layout_marginTop="42dp"
-        android:text="View Reports" 
+        android:layout_marginTop="26dp"
         android:background="#0099C5"
-        android:textColor="#ffffff"/>
+        android:text="View Reports"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/button2"
@@ -43,9 +70,9 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button1"
         android:layout_below="@+id/button1"
-        android:layout_marginTop="41dp"
+        android:layout_marginTop="26dp"
         android:background="#0099C5"
         android:text="Assign Work"
         android:textColor="#ffffff" />
 
-</RelativeLayout>
+</LinearLayout>

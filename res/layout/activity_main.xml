@@ -2,51 +2,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
-    tools:context=".MainActivity" 
+    android:gravity="center|top"
     android:orientation="vertical"
-    android:gravity="center|top">
+    tools:context=".MainActivity" >
 
-    <LinearLayout 
+    <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="#E5E4E2"
-        android:gravity="left"
-        >
-        
-         <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/official_logo_square" 
-        
-        
-        />
+        android:background="#0099c5"
+        android:gravity="left" >
 
-         <TextView
-             android:id="@+id/appName"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:gravity="left"
-             android:text="ENEZA Education"
-             android:textColor="#BF202F"
-             android:textColorHighlight="#ffffff"
-             android:textStyle="bold"
-             android:textAppearance="?android:attr/textAppearanceLarge" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/official_logo_square" />
 
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="ENEZA Education"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
     </LinearLayout>
-   
-
-    <Button
-        android:id="@+id/signup"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/userName"
-        android:layout_alignParentTop="false"
-        android:layout_marginTop="14dp"
-        android:background="#0099C5"
-        android:text="Sign Up"
-        android:textColor="#ffffff" />
 
     <TextView
         android:id="@+id/userName"
@@ -55,21 +36,19 @@
         android:layout_alignLeft="@+id/userNameIP"
         android:layout_below="@+id/signup"
         android:layout_marginTop="27dp"
-        android:text="Username:"
-        android:textColor="#000000" 
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="Enter Your Username:"
+        android:textColor="#000000" />
 
     <EditText
         android:id="@+id/userNameIP"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/userName"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="27dp"
         android:background="#ffffff"
-        android:ems="10"
-        android:hint="John Smith" 
-        android:gravity="center"/>
+        
+        android:gravity="center"
+        android:hint="John Smith" />
 
     <TextView
         android:id="@+id/passwordIP"
@@ -77,31 +56,39 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/userNameIP"
         android:layout_below="@+id/userNameIP"
-        android:layout_marginTop="25dp"
-        android:text="Password:"
-        android:textColor="#000000" 
-        android:gravity="center"/>
+        android:layout_marginTop="27dp"
+        android:gravity="center"
+        android:text="Enter Your Password:"
+        android:textColor="#000000" />
 
     <EditText
         android:id="@+id/passwordIP"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/userNameIP"
-        android:layout_centerVertical="true"
         android:background="#ffffff"
-        android:ems="10"
-        android:hint="Iloveapples87" 
-        android:gravity="center"/>
+        android:layout_marginTop="27dp"
+        
+        android:gravity="center"
+        android:hint="Iloveapples87" />
 
     <Button
         android:id="@+id/loginBtn"
-        android:layout_width="200dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/passwordIP"
         android:layout_below="@+id/passwordIP"
-        android:layout_marginTop="46dp"
+        android:layout_marginTop="27dp"
         android:background="#0099C5"
         android:text="Login"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#0099C5"
+        android:text="Sign Up"
         android:textColor="#ffffff" />
 
 </LinearLayout>
