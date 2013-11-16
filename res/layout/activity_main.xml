@@ -63,7 +63,7 @@
         android:layout_below="@+id/editText1"
         android:layout_marginTop="28dp"
         android:text="Password"
-        android:textAlignment="centre"
+        
         android:textColor="#000000" />
 
 </RelativeLayout>
