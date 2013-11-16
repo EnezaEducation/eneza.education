@@ -30,4 +30,6 @@ public class WebRequest {
         Log.i("WebRequest - callWebService", result);
         return result;
     }
+	
+	
 }
