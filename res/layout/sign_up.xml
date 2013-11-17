@@ -31,71 +31,102 @@
             android:textStyle="bold" />
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/name"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:text="Name*"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:background="#bf202f"
+        android:gravity="center" >
 
-    <EditText
-        android:id="@+id/nameIP"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/name"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:background="#ffffff"
-        android:ems="10"
-        android:gravity="center"
-        android:hint="John Smith" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Student Sign Up"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff" />
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/phoneIP"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/nameIP"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:text="Phone Number*"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
 
-    <EditText
-        android:id="@+id/phoneIP"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/nameIP"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:background="#ffffff"
-        android:ems="10"
-        android:gravity="center"
-        android:hint="+254720123456" />
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Name*"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <TextView
-        android:id="@+id/email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/phoneIP"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
-        android:text="Email"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        <EditText
+            android:id="@+id/nameIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="John Smith" />
+    </LinearLayout>
 
-    <EditText
-        android:id="@+id/emailIP"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/phoneIP"
-        android:layout_below="@+id/email"
-       android:layout_marginTop="10dp"
-        android:background="#ffffff"
-        android:ems="10"
-        android:gravity="center"
-        android:hint="john.smith@domain.com" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/phoneIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameIP"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Phone Number*"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/phoneIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameIP"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="+254720123456" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phoneIP"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Email:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/emailIP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/phoneIP"
+            android:layout_below="@+id/email"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="john.smith@domain.com" />
+    </LinearLayout>
 
 </LinearLayout>
